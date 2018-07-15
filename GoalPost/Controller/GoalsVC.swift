@@ -20,7 +20,9 @@ class GoalsVC: UIViewController {
         tableView.isHidden = false;
     }
 
-    @IBAction func addViewBttnWasPressed(_ sender: Any) {
+    @IBAction func addGoalBttnWasPressed(_ sender: Any) {
+        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "createGoalVC") else {return}
+        presentDetail(createGoalVC)
     }
     
 
