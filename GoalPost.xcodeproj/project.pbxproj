@@ -17,6 +17,8 @@
 		49C5049220FBD2D100606011 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5049120FBD2D100606011 /* GoalType.swift */; };
 		49C5049620FBEFC700606011 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5049520FBEFC700606011 /* CreateGoalVC.swift */; };
 		49C5049820FBF19200606011 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5049720FBF19200606011 /* UIViewControllerExt.swift */; };
+		49C5049A20FBF4B500606011 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5049920FBF4B500606011 /* UIViewExt.swift */; };
+		49C5049C20FBF77B00606011 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5049B20FBF77B00606011 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		49C5049120FBD2D100606011 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		49C5049520FBEFC700606011 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		49C5049720FBF19200606011 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		49C5049920FBF4B500606011 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		49C5049B20FBF77B00606011 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				49C5049720FBF19200606011 /* UIViewControllerExt.swift */,
+				49C5049920FBF4B500606011 /* UIViewExt.swift */,
+				49C5049B20FBF77B00606011 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,8 +192,10 @@
 				49C5049620FBEFC700606011 /* CreateGoalVC.swift in Sources */,
 				49C5049220FBD2D100606011 /* GoalType.swift in Sources */,
 				49C5047520FAE74E00606011 /* GoalsVC.swift in Sources */,
+				49C5049A20FBF4B500606011 /* UIViewExt.swift in Sources */,
 				49C5047320FAE74E00606011 /* AppDelegate.swift in Sources */,
 				49C5049820FBF19200606011 /* UIViewControllerExt.swift in Sources */,
+				49C5049C20FBF77B00606011 /* UIButtonExt.swift in Sources */,
 				49C5047B20FAE74E00606011 /* GoalPost.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
